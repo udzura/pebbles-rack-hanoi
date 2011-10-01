@@ -1,6 +1,6 @@
 = pebbles-rack-hanoi
 
-Description goes here.
+Rack::Hanoi can solve Hanoi's Tower question on the browser.
 
 == Contributing to pebbles-rack-hanoi
  

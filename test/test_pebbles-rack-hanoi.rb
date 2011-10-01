@@ -1,7 +1,8 @@
 require 'helper'
 
 class TestPebblesRackHanoi < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "respond_to #call" do
+    @app = Rack::Hanoi.new(lambda {})
+    assert @app.respond_to? :call
   end
 end
