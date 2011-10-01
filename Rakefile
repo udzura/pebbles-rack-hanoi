@@ -17,8 +17,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "pebbles-rack-hanoi"
   gem.homepage = "http://github.com/udzura/pebbles-rack-hanoi"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Rack::Hanoi can solve Hanoi's Tower question on the browser.}
+  gem.description = <<EOD
+Rack::Hanoi helps you to solve Hanoi's Tower question using your browser.
+It can be used as a Rack middleware.
+EOD
   gem.email = "udzura@udzura.jp"
   gem.authors = ["Uchio Kondo"]
   # dependencies defined in Gemfile
